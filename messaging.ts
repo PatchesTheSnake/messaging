@@ -4,12 +4,6 @@
 * Read more at https://makecode.microbit.org/blocks/custom
 */
 
-enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
-}
 
 /**
  * Custom blocks
