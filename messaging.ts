@@ -23,7 +23,7 @@ namespace messageing {
 
     //% help=radio/send-string
     //% weight=58
-    //% blockId=radio_datagram_send_string_2 block="radio send string %msg"
+    //% blockId=radio_datagram_send_string_2 block="radio send string (messageing) %msg"
     //% msg.shadowOptions.toString=true
     //% group="Send"
 
@@ -46,7 +46,7 @@ namespace messageing {
      */
 
 
-    //% blockId=radio_on_string_drag_2 block="on radio received" blockGap=16
+    //% blockId=radio_on_string_drag_2 block="on radio received messageing" blockGap=16
     //%  draggableParameters=reporter
     //% group="Receive"
     //% weight=18
