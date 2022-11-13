@@ -56,13 +56,13 @@ namespace messageing {
 
     }
     radio.onReceivedString(function (receivedString: string) {
-        let numm = receivedString.substr(3)
+        let str = receivedString.substr(3)
 
         let num = parseInt(receivedString.substr(0, 3))
         //basic.showNumber(num)
         radio.setGroup(num)
         if (onReceivedValueHandler) {
-            onReceivedValueHandler(numm)
+            onReceivedValueHandler(str)
         } 
 
     })
