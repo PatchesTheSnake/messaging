@@ -29,7 +29,7 @@ namespace messageing {
 
     export function sendString(value: string) {
         let cc = randint(100, 255)
-        radio.sendString(cc.toString() + ":" + value)
+        radio.sendString(cc.toString()  + value)
         radio.setGroup(cc)
     }
 
@@ -56,13 +56,15 @@ namespace messageing {
 
     }
     radio.onReceivedString(function (receivedString: string) {
-        let numm = receivedString.substr(4)
+        let numm = receivedString.substr(3)
 
         let num = parseInt(receivedString.substr(0, 3))
-        //basic.showString(num)
+        //basic.showNumber(num)
+        radio.setGroup(num)
         if (onReceivedValueHandler) {
             onReceivedValueHandler(numm)
-        } radio.setGroup(num)
+        } 
+
     })
 
 

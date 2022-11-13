@@ -10,13 +10,15 @@
     "files": [
         "README.md",
         "test.ts",
-        "messaging.ts"
+        "messaging.ts",
+        "main.py",
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "5.1.2",
+        "target": "5.0.12",
         "targetId": "microbit"
     },
     "supportedTargets": [
