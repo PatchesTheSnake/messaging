@@ -46,7 +46,7 @@ namespace messageing {
      */
 
 
-    //% blockId=radio_on_string_drag_2 block="on radio received messageing" blockGap=16
+    //% blockId=radio_on_string_drag_2 block="on radio received (messageing)" blockGap=16
     //%  draggableParameters=reporter
     //% group="Receive"
     //% weight=18
